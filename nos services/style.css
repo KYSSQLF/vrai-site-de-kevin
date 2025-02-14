@@ -1,0 +1,77 @@
+#nosservice {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Conteneur principal */
+  #nosservice .container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Titre principal */
+  #nosservice h1 {
+    font-size: 100px;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #007BFF;
+    margin-bottom: 10px;
+  }
+  
+  /* Style des paragraphes sous les titres */
+  p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  /* Style du tableau */
+  table {
+    width: 90%; /* Augmente la largeur du tableau */
+    margin: 0 auto; /* Centre le tableau */
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* Agrandissement du titre dans le tableau */
+  td {
+    font-size: 18px;
+  }
+  
+  /* Style pour la mise en surbrillance des titres */
+  td:first-child {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  

@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* En-têtes */
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+/* Paragraphe */
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+    margin: 20px;
+    text-align: justify;
+}
+
+/* Liste des valeurs */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+/* Section principale */
+h2 {
+    margin-top: 40px;
+}
+
+/* Pour les sections en vert avec des valeurs */
+h3 {
+    background-color: #00796b;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}

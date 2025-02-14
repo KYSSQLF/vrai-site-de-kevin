@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Contactez-nous</title>
+</head>
+<body>
+
+    <section class="contact">
+        <h1>Contactez-nous</h1>
+        <p>Vous avez une question ou besoin d'aide ? Remplissez le formulaire ci-dessous et nous reviendrons vers vous dans les plus brefs délais.</p>
+        
+        <form class="contact-form" action="https://formspree.io/f/xbldanzb" method="POST" onsubmit="return showConfirmation()">
+            <label for="name">Nom complet :</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="Votre email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" placeholder="Votre message" rows="6" required></textarea>
+
+            <button type="submit" class="submit-btn">Envoyer</button>
+        </form>
+    </section>
+
+    <script>
+        function showConfirmation() {
+            alert("Merci pour votre message ! Nous reviendrons vers vous dans les plus brefs délais.");
+            return true; 
+        }
+    </script>
+
+</body>
+</html>

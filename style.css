@@ -1,0 +1,25 @@
+header {
+    background-color: rgb(44, 44, 49); 
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+}
+main {
+    background-color: rgb(44, 44, 49); 
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+}
+footer{
+    background-color:rgb(44, 44, 49); 
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+}
+p{
+     height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  text-align: right;
+}

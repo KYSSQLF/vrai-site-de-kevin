@@ -1,0 +1,73 @@
+/* Général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* En-tête */
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+    font-size: 2.5rem;
+  }
+  
+  /* Section Avis */
+  .avis {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Avis Item */
+  .avis-item {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+  }
+  
+  .avis-item:last-child {
+    border-bottom: none;
+  }
+  
+  .avis-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .avis-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .client-info {
+    margin-right: 20px;
+  }
+  
+  .client-name {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  .client-location {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  /* Texte des Avis */
+  .avis-text {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+  
